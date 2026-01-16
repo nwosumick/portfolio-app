@@ -10,7 +10,7 @@ const ClientReviewCard = ({image, name, role}: Props) => {
       <div className="m-2">
          <Image 
          src={image}
-         ait="client"
+         alt="client"
          width={60}
          height={60}
          className="rounded-full"
